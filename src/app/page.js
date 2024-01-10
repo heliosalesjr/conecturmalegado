@@ -1,4 +1,5 @@
 'use client'
+import BgTest from './components/BgTest'
 import Hero from './components/Hero'
 import Jogo from './components/Jogo'
 import NavNextUI from './components/NavNextUI'

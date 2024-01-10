@@ -8,15 +8,15 @@ const NavNextUI = () => {
             <Navbar className="p-4 flex justify-between items-center px-8 max-w-[1200px] mx-auto">
                 <Link href="/">
                 
-                    <h1>Logo!</h1>
+                    <h1>Conecturma</h1>
                 
                 </Link>
                 
                 <div className="hidden md:flex space-x-4 text-sm uppercase font-semibold leading-snug text-white">
                     
-                    <Link href="/historia" className='px-4 hover:font-bold'>
+                    <Link href="/sobre" className='px-4 hover:font-bold'>
                         
-                        História
+                        Sobre
                         
                     </Link>
                     <Link href="/jogo" className='px-4 hover:font-bold'>
@@ -24,9 +24,15 @@ const NavNextUI = () => {
                         Jogo
                         
                     </Link>
-                    <Link href="/contato" className='px-4 hover:font-bold'>
+                    <Link href="/videos" className='px-4 hover:font-bold'>
                         
-                        Contato
+                        Vídeos
+                        
+                    </Link>
+
+                    <Link href="/creditos" className='px-4 hover:font-bold'>
+                        
+                        Créditos
                         
                     </Link>
                 </div>
