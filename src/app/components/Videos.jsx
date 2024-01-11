@@ -3,11 +3,11 @@ import ReactPlayer from 'react-player'
 
 function VideosCNT() {
   return (
-    <div className='bg-gradient-to-tr from-emerald-400 via-sky-500 to-purple-600 pt-8 pb-8'>
+    <div id='videos' className='bg-gradient-to-tr from-emerald-400 via-sky-500 to-purple-600 pt-8 pb-8'>
       <div>
         <div>
             <div className='mx-auto p-4 max-w-5xl'>
-                <h1 className='font-bold text-5xl py-4 text-center text-white'>História</h1>
+                <h1 className='font-bold text-4xl py-4 text-center text-white'>História</h1>
                 <p className='text-white text-center py-4'>Mais de 40 mil crianças aprenderam português e matemática com a Conecturma em vários estados e do Brasil. Abaixo você pode conferir os vídeos sobre o trabalho em Viamão, no Rio Grande do Sul, e na comunidade quilombola de Cavalcante, em Goiás, que nos rendeu uma indicação ao prêmio Veja em 2018.</p>
             </div>
         </div>
@@ -32,7 +32,7 @@ function VideosCNT() {
       <div>
         <div>
             <div className='mx-auto p-4 max-w-5xl'>
-                <h1 className='font-bold text-5xl py-4 text-center text-white'>Videoclipes</h1>
+                <h1 className='font-bold text-4xl py-4 text-center text-white'>Videoclipes</h1>
                 <p className='text-white text-center py-4'>Em nosso canal do Youtube você pode acessar os videoclipes produzidos para a Conecturma, com temáticas que vão da língua portuguesa e matemática até temas socioemocionais. Abaixo você pode conhecer nosso vídeo mais popular, que explica o que é um poema, e também um vídeo sobre trava-línguas.</p>
             </div>
         </div>

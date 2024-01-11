@@ -6,7 +6,7 @@ import { MdCastForEducation } from 'react-icons/md';
 
 const FeatureSection = () => {
   return (
-    <div>
+    <div id="sobre">
       <div className='max-w-3xl mx-auto'>
         <Divider />
 
@@ -14,7 +14,7 @@ const FeatureSection = () => {
       <div className="container mt-12 max-w-7xl mx-auto md:px-6">
         {/* Section: Design Block */}
         <section className="mb-32 text-center">
-          <h2 className="mb-16 text-4xl font-gray-700 font-bold text-slate-700">
+          <h2 className="mb-16 text-4xl font-bold text-slate-700">
             Impacto
           </h2>
           <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">

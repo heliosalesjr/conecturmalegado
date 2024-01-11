@@ -2,7 +2,7 @@ import React from 'react';
 
 function Creditos() {
   return (
-    <div className='bg-slate-200 py-8'>
+    <div id='creditos' className='bg-slate-200 py-8'>
       <div className='max-w-7xl mx-auto p-16 flex justify-center items-center'>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
           {/* Coluna para a imagem */}

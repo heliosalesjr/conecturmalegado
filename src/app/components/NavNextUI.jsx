@@ -14,23 +14,23 @@ const NavNextUI = () => {
                 
                 <div className="hidden md:flex space-x-4 text-sm uppercase font-medium leading-snug text-white">
                     
-                    <Link href="/sobre" className='px-4 hover:font-semibold'>
+                    <Link href="#sobre" className='px-4 hover:font-semibold'>
                         
                         Sobre
                         
                     </Link>
-                    <Link href="/jogo" className='px-4 hover:font-semibold'>
+                    <Link href="#jogo" className='px-4 hover:font-semibold'>
                         
                         Jogo
                         
                     </Link>
-                    <Link href="/videos" className='px-4 hover:font-semibold'>
+                    <Link href="#videos" className='px-4 hover:font-semibold'>
                         
                         Vídeos
                         
                     </Link>
 
-                    <Link href="/creditos" className='px-4 hover:font-semibold'>
+                    <Link href="#creditos" className='px-4 hover:font-semibold'>
                         
                         Créditos
                         
