@@ -3,7 +3,7 @@ import React from 'react';
 const Hero3 = () => {
   return (
     <section className="relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/cnt1.png)' }}>
-      <div className="absolute inset-0 bg-gradient-to-r from-white to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-white to-slate-300 sm:to-transparent"></div>
 
       <div className="relative mx-auto max-w-screen-xl px-4 py-44 sm:px-6 lg:flex lg:items-center lg:px-8">
         <div className="max-w-xl   text-slate-600">
